@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Upcoming Movies 2017</string>
+    <string name="title_activity_movie_add">MovieAdd</string>
+</resources>
