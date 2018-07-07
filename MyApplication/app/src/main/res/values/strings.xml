@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Joseph N. Delauro</string>
+    <string name="details_button">Show details</string>
+
+    <string name="workout_title">Title</string>
+    <string name="workout_description">Description</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+
+    <string name="bio">bio</string>
+    <string name="title_activity_abstract_art">AbstractArt</string>
+    <string name="title_activity_figurative_art">FigurativeArtActivity</string>
+    <string name="title_activity_architectural_art">ArchitecturalArtActivity</string>
+    <string name="title_activity_religious_art">ReligiousArtActivity</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kckargul.workout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="kckargul.workout.MainMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kckargul.workout.DetailActivity" />
+        <activity android:name="kckargul.workout.BioActivity" />
+        <activity
+            android:name="kckargul.workout.AbstractArtActivity"
+            android:label="@string/title_activity_abstract_art"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kckargul.workout.FigurativeArtActivity"
+            android:label="@string/title_activity_figurative_art"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kckargul.workout.ArchitecturalArtActivity"
+            android:label="@string/title_activity_architectural_art"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kckargul.workout.ReligiousArtActivity"
+            android:label="@string/title_activity_religious_art"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
